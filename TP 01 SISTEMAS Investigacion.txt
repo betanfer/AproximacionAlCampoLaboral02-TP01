@@ -157,3 +157,4 @@ Además de la bibliografía previamente proporcionada, estos libros y artículos
 5.	Shim, J. P., Warkentin, M., Courtney, J. F., Power, D. J., Sharda, R., & Carlsson, S. (2002). Past, Present, and Future of Decision Support Technology. Decision Support Systems, 33(2), 111-125. (Un artículo académico que ofrece una visión histórica y evolutiva de los DSS, útil para comprender la evolución de sus beneficios y limitaciones).
 
 
+
