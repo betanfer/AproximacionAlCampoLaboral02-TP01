@@ -1,30 +1,63 @@
-El campo de estudio del desarrollo de software es un área amplia que integra varias disciplinas para crear, mantener y gestionar soluciones informáticas. Cada uno de los temas que mencionaste juega un rol crucial en este proceso. Aquí te explico en detalle cada uno:
-________________________________________
-1. Análisis y Diseño de Sistemas
-Esta es la fase inicial y más crítica de cualquier proyecto de software. El objetivo es entender los requerimientos del negocio y planificar cómo el sistema los cumplirá.
-•	Análisis de Sistemas: Implica investigar y entender el problema que el software debe resolver. Se recopilan los requisitos funcionales (qué debe hacer el sistema) y no funcionales (cómo debe funcionar, como la seguridad y el rendimiento). Se usan técnicas como entrevistas, encuestas y análisis de documentos para comprender el flujo de trabajo actual de la organización y sus necesidades.
-•	Diseño de Sistemas: Una vez que los requisitos están claros, esta etapa se enfoca en crear un plano o modelo detallado del sistema. Incluye el diseño de la arquitectura del software (la estructura general del sistema), el diseño de la interfaz de usuario (cómo interactuará el usuario), el diseño de la base de datos y la definición de los componentes y módulos que se construirán. Se utilizan herramientas como diagramas UML (Lenguaje de Modelado Unificado) para visualizar la estructura y el comportamiento del sistema.
-________________________________________
-2. Bases de Datos
-Las bases de datos son el corazón de casi cualquier sistema de información. Se encargan de almacenar, organizar y gestionar la información de forma estructurada para que pueda ser recuperada y utilizada eficientemente.
-•	Modelado de Datos: Se define la estructura de los datos que se van a almacenar. Los modelos más comunes son el relacional (tablas con filas y columnas) y el no relacional (como documentos, grafos o clave-valor).
-•	Sistemas de Gestión de Bases de Datos (SGBD): Son el software que permite a los usuarios interactuar con la base de datos. Ejemplos populares son MySQL, PostgreSQL, Oracle (relacionales) y MongoDB, Cassandra (no relacionales). El estudio de las bases de datos incluye el aprendizaje de lenguajes de consulta como SQL (Structured Query Language) para manipular los datos, así como la optimización de consultas y la administración de la seguridad.
-________________________________________
-3. Ingeniería de Software
-La ingeniería de software es la aplicación de un enfoque sistemático y disciplinado para el desarrollo y mantenimiento de software. Es la disciplina que asegura que el software sea de alta calidad, confiable, seguro y mantenible a largo plazo.
-Imagen de Software Development Life Cycle
-•	Ciclo de Vida del Software: Se estudian los diferentes modelos para gestionar el desarrollo, como el modelo en cascada, los modelos iterativos y ágiles (Scrum, Kanban).
-•	Pruebas de Software: Se definen las estrategias para validar que el software cumple con los requisitos y no tiene errores. Esto incluye pruebas unitarias (de componentes individuales), de integración, de sistema y de aceptación por parte del usuario.
-•	Mantenimiento de Software: Se estudian las actividades posteriores al despliegue, como la corrección de errores, la adaptación del sistema a nuevos entornos y la mejora de su funcionalidad a lo largo del tiempo.
-________________________________________
-4. Gestión de Proyectos
-La gestión de proyectos es la disciplina que se encarga de planificar, ejecutar y controlar el trabajo de un equipo para lograr un objetivo específico, en este caso, el desarrollo de un software. Se asegura de que el proyecto se entregue a tiempo, dentro del presupuesto y con los recursos adecuados.
-•	Planificación del Proyecto: Incluye la definición del alcance (qué se va a hacer y qué no), la estimación de los costos y el cronograma, y la asignación de recursos (personal, herramientas).
-•	Gestión de Riesgos: Se identifican los posibles problemas (técnicos, de personal, de mercado) y se planifican estrategias para mitigarlos.
-•	Metodologías de Gestión: El estudio de este campo se centra en diferentes enfoques, desde los más tradicionales como el PMBOK (Project Management Body of Knowledge) hasta los modernos y flexibles como las metodologías Ágiles, que se adaptan bien a la naturaleza cambiante de los proyectos de software. La gestión de equipos y la comunicación con los interesados son también aspectos clave.
+TEMA 01: CONCEPTOS BASICOS SISTEMAS, SISTEMA INFORMATICO, SISTEMAS DE INFORMACION - LUCAS 
+Un sistema es un conjunto de elementos o partes interrelacionadas que trabajan juntas para lograr un objetivo común. 
 
+---
 
-¡Hola! Los Sistemas de Apoyo a la Toma de Decisiones (DSS) son herramientas informáticas que asisten a gerentes y analistas a resolver problemas complejos y a tomar decisiones informadas. A diferencia de los sistemas tradicionales que automatizan tareas, los DSS están diseñados para complementar el juicio humano, permitiendo a los usuarios analizar, simular y evaluar diversas alternativas.
+### 1. Definición de Sistema
+
+Un **sistema** es un conjunto organizado de componentes que interactúan para lograr un propósito o meta. Los componentes pueden ser físicos (como hardware) o conceptuales (como reglas y procesos). La clave de un sistema es la **sinergia**, es decir, el todo es más que la suma de sus partes. Por ejemplo, el cuerpo humano es un sistema donde órganos como el corazón y los pulmones trabajan juntos para mantener la vida.
+
+---
+
+### 2. Definición de Sistema de Información (SI)
+
+Un **Sistema de Información (SI)** es un conjunto de componentes interrelacionados que recolectan, procesan, almacenan y distribuyen datos para apoyar la toma de decisiones y el control en una organización.  Un SI no es solo la tecnología; también incluye a las **personas** que usan el sistema y los **procesos de negocio** que el sistema soporta.
+
+---
+
+### 3. Definición de Sistema Informático
+
+Un **Sistema Informático** es el subconjunto tecnológico de un sistema de información. Se refiere al hardware y el software que trabajan juntos para procesar los datos. Incluye la computadora, los periféricos (impresoras, escáneres) y los programas de software (sistemas operativos, aplicaciones). Un sistema informático es la **parte técnica** del SI.
+
+---
+
+### 4. Diferencias entre Sistema de Información y Sistema Informático
+
+| Característica | Sistema de Información (SI) | Sistema Informático |
+| :--- | :--- | :--- |
+| **Componentes** | **Personas**, **procesos** y **tecnología**. | Solo **hardware y software**. |
+| **Propósito** | Apoyar la toma de decisiones y la gestión de una organización. | Procesar datos de manera eficiente. |
+| **Enfoque** | Estratégico y de negocio. | Técnico y de ingeniería. |
+| **Ejemplo** | Un sistema de gestión de inventario que incluye a los empleados que lo usan, las políticas de reabastecimiento y el software de gestión. | El software de gestión de inventario y la base de datos donde se almacena la información. |
+
+La diferencia clave es que el **Sistema Informático** es solo la parte tangible del **Sistema de Información**, mientras que el **SI** abarca un concepto más amplio que incluye a las personas y los procesos.
+
+---
+
+### 5. Características Principales del Sistema de Información
+
+Un sistema de información eficaz tiene las siguientes características clave:
+
+* **Entrada (Input):** Recolecta los datos en bruto de dentro o fuera de la organización (ej: datos de ventas, información de clientes).
+* **Procesamiento (Processing):** Convierte los datos de entrada en una forma significativa (ej: calcular el total de ventas, analizar tendencias).
+* **Salida (Output):** Transfiere la información procesada a las personas o actividades que la usarán (ej: informes de ventas, gráficos).
+* **Retroalimentación (Feedback):** La información de salida se devuelve a la fase de entrada para evaluar o corregir las etapas de procesamiento (ej: la gerencia usa un informe de ventas para decidir si ajustar las metas).
+
+Estas características forman el ciclo de vida básico de cualquier sistema de información.
+
+---
+
+### Bibliografía Recomendada
+
+Para respaldar tu ponencia, puedes citar estos textos fundamentales sobre sistemas y tecnología de la información:
+
+1.  **Laudon, K. C., & Laudon, J. P.** (2018). *Management Information Systems: Managing the Digital Firm*. Pearson.
+2.  **Turban, E., Volonino, L., & Wood, G. R.** (2018). *Information Technology for Management*. Wiley.
+3.  **Kendall, K. E., & Kendall, J. E.** (2014). *Systems Analysis and Design*. Pearson.
+4.  **O'Brien, J. A., & Marakas, G. M.** (2011). *Management Information Systems*. McGraw-Hill/Irwin.
+5.  **Stair, R. M., & Reynolds, G. W.** (2017). *Fundamentals of Information Systems*. Cengage Learning.
+
+Los Sistemas de Apoyo a la Toma de Decisiones (DSS) son herramientas informáticas que asisten a gerentes y analistas a resolver problemas complejos y a tomar decisiones informadas. A diferencia de los sistemas tradicionales que automatizan tareas, los DSS están diseñados para complementar el juicio humano, permitiendo a los usuarios analizar, simular y evaluar diversas alternativas.
 ________________________________________
 TEMA 04: . Definición y Propósito del DSS
 Un DSS es un sistema interactivo basado en computadoras que combina datos, modelos analíticos y una interfaz fácil de usar para ayudar a los tomadores de decisiones a resolver problemas.
@@ -122,4 +155,5 @@ Además de la bibliografía previamente proporcionada, estos libros y artículos
 3.	Holsapple, C. W., & Whinston, A. B. (1996). Decision Support Systems: A Knowledge-Based Approach. West Publishing Company. (Un texto fundamental que analiza los DSS desde una perspectiva basada en el conocimiento).
 4.	Keen, P. G. W. (1981). Decision Support Systems: An Organizational Perspective. Addison-Wesley. (Un clásico que se enfoca en los desafíos organizacionales de la implementación de un DSS).
 5.	Shim, J. P., Warkentin, M., Courtney, J. F., Power, D. J., Sharda, R., & Carlsson, S. (2002). Past, Present, and Future of Decision Support Technology. Decision Support Systems, 33(2), 111-125. (Un artículo académico que ofrece una visión histórica y evolutiva de los DSS, útil para comprender la evolución de sus beneficios y limitaciones).
+
 
